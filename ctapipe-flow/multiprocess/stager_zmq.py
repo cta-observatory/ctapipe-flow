@@ -8,7 +8,7 @@ from zmq import POLLIN
 from zmq import REQ
 from zmq import Poller
 from zmq import Context
-from ctapipe.flow.multiprocess.connections import Connections
+from ctapipe-flow.multiprocess.connections import Connections
 from ctapipe.core import Component
 
 

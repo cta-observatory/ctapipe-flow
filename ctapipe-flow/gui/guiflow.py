@@ -1,7 +1,7 @@
 import sys
 from ctapipe.core import Tool
 from traitlets import Integer
-from ctapipe.flow.gui.main_window import ModuleApplication
+from ctapipe-flow.gui.main_window import ModuleApplication
 
 
 class PipeGui(Tool):

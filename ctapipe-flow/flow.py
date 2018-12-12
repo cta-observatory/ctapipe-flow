@@ -12,14 +12,14 @@ from time import sleep
 from pickle import dumps
 from traitlets import Bool, List, Dict, Unicode, Enum
 
-from ctapipe.flow.multiprocess.producer_zmq import ProducerZmq
-from ctapipe.flow.multiprocess.stager_zmq import StagerZmq
-from ctapipe.flow.multiprocess.consumer_zmq import ConsumerZMQ
-from ctapipe.flow.multiprocess.router_queue_zmq import RouterQueue
-from ctapipe.flow.sequential.producer_sequential import ProducerSequential
-from ctapipe.flow.sequential.stager_sequential import StagerSequential
-from ctapipe.flow.sequential.consumer_sequential import ConsumerSequential
-from ctapipe.flow.stager_rep import StagerRep
+from ctapipe-flow.multiprocess.producer_zmq import ProducerZmq
+from ctapipe-flow.multiprocess.stager_zmq import StagerZmq
+from ctapipe-flow.multiprocess.consumer_zmq import ConsumerZMQ
+from ctapipe-flow.multiprocess.router_queue_zmq import RouterQueue
+from ctapipe-flow.sequential.producer_sequential import ProducerSequential
+from ctapipe-flow.sequential.stager_sequential import StagerSequential
+from ctapipe-flow.sequential.consumer_sequential import ConsumerSequential
+from ctapipe-flow.stager_rep import StagerRep
 from ctapipe.utils import dynamic_class_from_module
 from ctapipe.utils.dynamic_class import DynamicClassError
 from ctapipe.core import Tool

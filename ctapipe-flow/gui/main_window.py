@@ -3,10 +3,10 @@
 Qt QApplication and QMainWindow for GUI
 This requires the pyside python library to be installed
 """
-from ctapipe.flow.gui.graphwidget import GraphWidget
-from ctapipe.flow.gui.infolabel import InfoLabel
-from ctapipe.flow.gui.guiconnection import GuiConnexion
-import ctapipe.flow.gui.images_rc
+from ctapipe-flow.gui.graphwidget import GraphWidget
+from ctapipe-flow.gui.infolabel import InfoLabel
+from ctapipe-flow.gui.guiconnection import GuiConnexion
+import ctapipe-flow.gui.images_rc
 from PyQt4.QtGui import QMainWindow
 from PyQt4.QtGui import QPushButton
 from PyQt4.QtGui import QApplication
@@ -120,7 +120,7 @@ class MainWindow(QMainWindow, object):
 
     def retranslateUi(self):
         self.setWindowTitle(QApplication.translate(
-            "ctapipe flow based GUI", "ctapipe flow based GUI", None, QApplication.UnicodeUTF8))
+            "ctapipe-flow based GUI", "ctapipe-flow based GUI", None, QApplication.UnicodeUTF8))
         self.menuFile.setTitle(QApplication.translate(
             "MainWindow", "File", None, QApplication.UnicodeUTF8))
         self.actionQuit.setText(QApplication.translate(
